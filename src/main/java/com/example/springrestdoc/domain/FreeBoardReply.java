@@ -2,6 +2,7 @@ package com.example.springrestdoc.domain;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.ToString;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
@@ -10,6 +11,7 @@ import java.sql.Timestamp;
 
 @Data
 @Entity
+@ToString(exclude = "freeBoard")
 @Table(name = "tabl_board_reply")
 @EqualsAndHashCode(of = "rno")
 public class FreeBoardReply {
