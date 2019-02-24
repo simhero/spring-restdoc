@@ -1,0 +1,10 @@
+= Member
+== Member 조회
+include::{snippets}/member-controller-test/test-get-member/path-parameters.adoc[]
+include::{snippets}/member-controller-test/test-get-member/http-response.adoc[]
+include::{snippets}/member-controller-test/test-get-member/response-fields.adoc[]
+include::{snippets}/member-controller-test/test-get-member/curl-request.adoc[]
+include::{snippets}/member-controller-test/test-get-member/http-request.adoc[]
+include::{snippets}/member-controller-test/test-get-member/httpie-request.adoc[]
+include::{snippets}/member-controller-test/test-get-member/request-body.adoc[]
+include::{snippets}/member-controller-test/test-get-member/response-body.adoc[]
